@@ -58,16 +58,64 @@
 		3102AA1327A8F6D9001C1947 /* IOSChatApp */ = {
 			isa = PBXGroup;
 			children = (
-				3102AA1427A8F6D9001C1947 /* AppDelegate.swift */,
-				3102AA1627A8F6D9001C1947 /* SceneDelegate.swift */,
-				3102AA1827A8F6D9001C1947 /* ViewController.swift */,
-				3102AA1A27A8F6D9001C1947 /* Main.storyboard */,
-				3102AA2027A8F6DC001C1947 /* Assets.xcassets */,
-				3102AA2227A8F6DC001C1947 /* LaunchScreen.storyboard */,
+				3102AA2E27A8F731001C1947 /* Resources */,
+				3102AA2D27A8F72D001C1947 /* views */,
+				3102AA2C27A8F728001C1947 /* Models */,
+				3102AA2B27A8F71D001C1947 /* Controllers */,
 				3102AA2527A8F6DC001C1947 /* Info.plist */,
 				3102AA1D27A8F6D9001C1947 /* IOSChatApp.xcdatamodeld */,
 			);
 			path = IOSChatApp;
+			sourceTree = "<group>";
+		};
+		3102AA2B27A8F71D001C1947 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3102AA1827A8F6D9001C1947 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3102AA2C27A8F728001C1947 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3102AA2D27A8F72D001C1947 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				3102AA2F27A8F75A001C1947 /* StoryBoard */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		3102AA2E27A8F731001C1947 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3102AA3027A8F76D001C1947 /* LifeCycle */,
+				3102AA2027A8F6DC001C1947 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3102AA2F27A8F75A001C1947 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				3102AA1A27A8F6D9001C1947 /* Main.storyboard */,
+				3102AA2227A8F6DC001C1947 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		3102AA3027A8F76D001C1947 /* LifeCycle */ = {
+			isa = PBXGroup;
+			children = (
+				3102AA1427A8F6D9001C1947 /* AppDelegate.swift */,
+				3102AA1627A8F6D9001C1947 /* SceneDelegate.swift */,
+			);
+			path = LifeCycle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,7 +341,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KG94G4G9WV;
+				DEVELOPMENT_TEAM = 3EGXVN72T4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IOSChatApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -321,7 +369,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KG94G4G9WV;
+				DEVELOPMENT_TEAM = 3EGXVN72T4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IOSChatApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
